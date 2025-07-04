@@ -1,0 +1,70 @@
+/* SelectSeats Page Styles */
+.seats-container {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .seats-container h1 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .seats-container p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .seats-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 0;
+    align-items: center;
+  }
+  
+  .seat-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .seat {
+    width: 40px;
+    height: 40px;
+    background-color: #bdc3c7;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .seat.selected {
+    background-color: #27ae60;
+  }
+  
+  .seat:hover {
+    background-color: #95a5a6;
+  }
+  
+  .confirm-btn {
+    margin-top: 30px;
+    padding: 12px 24px;
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #2980b9;
+  }
+  
